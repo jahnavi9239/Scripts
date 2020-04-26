@@ -24,7 +24,7 @@
     $mobusername    = 'root';
     $mobpassword    = '';
     $mobdbname      = 'test_bak';
-    $mobcon         = mysqli_connect($mobhost, $mobusername, $mobpassword, $mobdbname);
+    $mobcon         = mysqli_connect($dbhost, $mobusername, $mobpassword, $mobdbname);
     if (mysqli_connect_errno())
     {
         echo 'Failed to connect to MySQL: ' . mysqli_connect_error();
