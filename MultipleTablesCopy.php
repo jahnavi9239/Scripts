@@ -13,7 +13,7 @@
     }
 
     /**
-     * Queries for reading
+     * Query for reading employees data
      */
     // $employees = mysqli_query($webcon, 'SELECT * FROM `test1`');
 
